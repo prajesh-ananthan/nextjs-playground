@@ -2,7 +2,6 @@ import {useRouter} from "next/router";
 
 function SelectedClientProjectPage() {
   const router = useRouter();
-  const query = router.query;
   console.log(router.query);
 
   return (
